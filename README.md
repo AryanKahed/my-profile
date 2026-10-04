@@ -1,171 +1,91 @@
-# Developer Profile Portfolio
+# Aryan Kahed | Developer Portfolio
 
-A beginner-friendly developer portfolio for the **GitHub & Profile Building Workshop**, organized by **Coding Club**. It is a complete static website made with HTML, CSS, and vanilla JavaScript. It works by opening `index.html` directly—no Node.js, backend, database, API key, or paid service is needed.
+A personal portfolio for **Aryan Kahed**, a **BCA student at Career Point University** and developer in progress. Built with HTML, CSS, and vanilla JavaScript.
 
-> **Important:** This is a demo profile. Search for `STUDENT CUSTOMIZATION` in the project files and replace the demo information with your own information.
+## About me
+
+I am learning **C, Python, HTML, CSS, JavaScript, Git, and GitHub**. My focus is **web development, programming fundamentals, data structures, and problem solving**. I am building my skills through consistent practice and small projects.
+
+## Connect
+
+- GitHub: [AryanKahed](https://github.com/AryanKahed)
+- LinkedIn: [Aryan Kahed](https://www.linkedin.com/in/aryan-kahed-81269b310/)
+- Email: [aryankahed44@gmail.com](mailto:aryankahed44@gmail.com)
 
 ## Features
 
-- Responsive portfolio sections: hero, about, skills, projects, education, learning journey, links, contact, and footer
+- Original responsive design and light/dark appearance
 - Mobile navigation menu
-- Light/dark theme toggle (saved in the browser)
+- Theme preference saved in the browser when storage is available
 - Smooth anchor scrolling
-- Project category filtering
-- Current year generated automatically
-- Working GitHub, LinkedIn, and `mailto:` links
-- No fake statistics, testimonials, achievements, backend, or project URLs
+- Web/Learning project filters
+- Automatic footer year
+- GitHub, LinkedIn, and email links
 
-## Technologies
+The three project cards remain clearly marked **demo projects**. They are template examples, not claims about completed work. Their placeholder links stay disabled until real project URLs are added.
 
-HTML5 · CSS3 · Vanilla JavaScript
-
-## Folder structure
+## Files
 
 ```text
-github-workshop-simple-portfolio/
+portfolio/
 ├── index.html
 ├── style.css
 ├── script.js
 ├── README.md
-├── .gitignore
-└── assets/
-    └── README.md
+└── .gitignore
 ```
 
-## How to run
+No dependencies, build step, assets folder, backend, or API key is required. Keep these files together and double-click `index.html` to preview the website.
 
-1. Download or clone this repository.
-2. Open the folder.
-3. Double-click `index.html`, or right-click it and choose a browser.
-4. No installation or build command is required.
+## Source preservation
 
-## How the JavaScript works
+The original HTML was personalized and the original CSS and `.gitignore` were copied unchanged. The referenced conversation did not provide an accessible `script.js` attachment, so this file was recreated to implement the original README's documented behavior: menu, persistent theme, project filtering, footer year, and disabled demo links. Exact equivalence to the unavailable script cannot be verified.
 
-- The menu button adds/removes `.open` on mobile navigation.
-- The theme button adds/removes `.dark` and remembers the choice with `localStorage`.
-- The browser's smooth scrolling is enabled in `style.css`.
-- `new Date().getFullYear()` fills the footer year.
-- Project buttons compare each card's `data-category` with the selected filter and hide non-matching cards.
+## Upload or replace files on GitHub
 
-## 🎓 STUDENT CUSTOMIZATION GUIDE
+Recommended repository name: `portfolio`. Its expected Pages address is https://aryankahed.github.io/portfolio/ after successful deployment.
 
-Start by searching the whole project for **`STUDENT CUSTOMIZATION`**. The demo profile is intentionally marked in `index.html` and `script.js`. Make your changes in these exact places:
+### Create a repository if you do not already have one
 
-| Item | FILE | SECTION | WHAT TO CHANGE |
-|---|---|---|---|
-| Name | `index.html` | Hero, footer, code card | Replace Salman Khan with your name. Also update the page `<title>` and meta description. |
-| Role | `index.html` | Hero heading | Replace “BCA Student \| Developer in Progress” with your honest role. |
-| Bio | `index.html` | About and hero copy | Rewrite both paragraphs in your own words. Do not claim achievements you do not have. |
-| University | `index.html` | About and Education | Replace Career Point University, Kota with your institution. |
-| Skills | `index.html` | Skills section | Add/remove beginner technologies you are actually learning. |
-| Projects | `index.html` | Demo projects | Change titles, descriptions, tags, and categories. Replace `disabled-link` placeholders only with real URLs. |
-| Education | `index.html` | Education card | Replace BCA and university. Add dates/grades only if you want to and they are accurate. |
-| GitHub URL | `index.html` | Hero and Contact links | Replace both `https://github.com/skaadil786` links with your profile URL. |
-| LinkedIn URL | `index.html` | Hero and Contact links | Replace both LinkedIn URLs with your real profile URL. |
-| Email | `index.html` | Contact | Replace the `mailto:` address and visible email destination if you add one. |
-| Theme/design | `style.css` | `:root` variables | Change `--accent`, `--bg`, `--dark`, and other color values. |
-| Footer | `index.html` | Footer | Replace organizer/workshop text if your workshop uses different details. |
+1. Sign in to https://github.com as **AryanKahed**.
+2. Click **+ → New repository**.
+3. Set the owner to **AryanKahed** and repository name to **portfolio**.
+4. Choose **Public**. Select **Add a README file** so the repository starts with a branch. Leave the license and generated `.gitignore` options unset.
+5. Click **Create repository**.
+6. Check the branch selector. The steps below assume **main**; use the actual branch name if different.
 
-The starter project keeps demo project buttons disabled as placeholders so students do not accidentally publish fake URLs. Use real repository/demo links only.
+### Upload the personalized files (also works for replacing existing files)
 
-## Workshop challenge
+1. Extract `Aryan-Kahed-Portfolio.zip` on your computer, or download the five individual files. Upload the files themselves, not the ZIP.
+2. Open your own portfolio repository and select **main** on the **Code** tab.
+3. If the old portfolio lives at the repository root, stay there. All five files must sit directly at that root for the Pages setup below. Back up the old files if you want a separate copy; GitHub also retains committed versions in history.
+4. Select **Add file → Upload files**.
+5. Drag in **index.html, style.css, script.js, README.md, and .gitignore** together. Do not drag the containing folder. Same-path, same-name uploads replace the existing versions when committed.
+6. Enter the commit message **Personalize portfolio for Aryan Kahed**.
+7. For your personal repository, select **Commit directly to the main branch**, then **Commit changes**. If the repository requires a new branch, choose **Create a new branch**, click **Propose changes**, open the pull request, and merge it into main before continuing.
+8. On the Code tab, confirm all five filenames appear at the root. The entry file must be exactly `index.html`, not `index.html.txt` or `Index.html`.
+9. On Windows, if `.gitignore` is difficult to select, enable **View → Show → Hidden items** and **File name extensions** in File Explorer. Alternatively use **Add file → Create new file**, name it `.gitignore`, paste the delivered contents, and commit it; if it already exists, open it and use the pencil edit button instead.
 
-### STEP 1 — Clone the workshop project
+## Enable GitHub Pages
 
-```bash
-git clone <WORKSHOP-REPOSITORY-URL>
-```
+1. Open your portfolio repository's **Settings**.
+2. In the left sidebar, select **Pages**.
+3. Under **Build and deployment → Source**, select **Deploy from a branch**.
+4. Under **Branch**, select **main** (or the branch containing your files).
+5. Select **/ (root)** as the folder and click **Save**.
+6. Open the repository's **Actions** tab and wait for the Pages build/deployment to finish successfully. Allow a few minutes; deployment is not instant.
+7. Return to **Settings → Pages** and use **Visit site** or the displayed website link. With repository `portfolio`, the expected URL is https://aryankahed.github.io/portfolio/.
+8. Open the site and check your name, college, email, GitHub and LinkedIn links, menu on mobile, theme toggle, and All/Web/Learning filters.
+9. If you see an old version, refresh with **Ctrl+F5** after deployment completes. For a 404, confirm the deployment succeeded and `index.html` is at the selected branch's root. Build failures are shown in **Actions**.
+10. Future updates use the same upload/replace process. Commits to the selected publishing branch trigger another deployment.
 
-This downloads the source project. Replace the placeholder with the URL supplied by your instructor.
+Optional: name the repository **AryanKahed.github.io** to use https://aryankahed.github.io/ as the homepage URL. The special **AryanKahed** repository is for the GitHub profile README; it is separate from this portfolio repository.
 
-### STEP 2 — Run it locally
+## Add your actual projects later
 
-```bash
-cd github-workshop-simple-portfolio
-```
+In `index.html`, update each demo project's title, description, tags, and real repository URL. Remove `disabled-link` from a link once its real URL is supplied, and replace the demo label with an accurate status. Keep `data-category="web"` or `data-category="learning"` to preserve filtering.
 
-Open `index.html` in your browser and check the site.
+## Official GitHub references
 
-### STEP 3 — Find `STUDENT CUSTOMIZATION`
-
-Search the project files for that exact phrase.
-
-### STEP 4 — Replace Salman Khan's information
-
-Update the marked profile content with your own honest information.
-
-### STEP 5 — Add at least 2 of your own projects
-
-Update the three cards. Use real GitHub URLs only; do not invent links.
-
-### STEP 6 — Customize the colors/design
-
-Change the CSS variables in `style.css` and keep text readable.
-
-### STEP 7 — Add your GitHub and LinkedIn links
-
-Test each link in a new tab.
-
-### STEP 8 — Test the website
-
-Check desktop, tablet, and mobile widths, navigation, theme, filters, links, and spelling.
-
-### STEP 9 — Commit the changes
-
-```bash
-git status
-git add .
-git commit -m "Customize portfolio for my profile"
-```
-
-`git status` shows changed files. `git add .` stages them. `git commit` records a snapshot locally.
-
-### STEP 10 — Create YOUR OWN GitHub repository
-
-On GitHub, create a new empty repository under your account, for example `my-developer-portfolio`. Do not initialize it with another README if this folder already has one.
-
-### STEP 11 — Change the Git remote
-
-```bash
-git remote -v
-git remote remove origin
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-```
-
-Replace `YOUR_USERNAME` and `YOUR_REPOSITORY`. The workshop repository is the **SOURCE** project. Changing `origin` prevents accidentally pushing to Salman Khan's repository. Verify with `git remote -v`.
-
-### STEP 12 — Push to YOUR GitHub
-
-```bash
-git branch -M main
-git push -u origin main
-```
-
-Replace the placeholders before running commands. **Never force push** for this workshop. If GitHub asks you to sign in, use GitHub's normal authentication flow.
-
-## GitHub Pages deployment
-
-1. Open your repository on GitHub.
-2. Go to **Settings → Pages**.
-3. Under **Build and deployment**, select **Deploy from a branch**.
-4. Select branch `main` and folder `/ (root)`, then click **Save**.
-5. Wait for the Pages URL to appear. Your entry file must be named `index.html`.
-
-## Future improvements
-
-- Add real project screenshots that you created or have permission to use.
-- Add a downloadable résumé you wrote yourself.
-- Add more accessible focus states and keyboard testing.
-- Add a blog or project detail pages using only static files.
-
-## What students learned
-
-- Semantic HTML page structure
-- Responsive CSS layouts and design variables
-- Beginner DOM event handling
-- Git status, staging, commits, remotes, branches, and pushes
-- How to safely create and deploy a personal GitHub repository
-
-## Safety reminder
-
-Do not push to the workshop source repository. Create **your own** repository, remove the workshop `origin`, add your own `origin`, and then push normally. Never commit passwords, API keys, or private information.
+- [Uploading files](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository)
+- [Configuring GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
