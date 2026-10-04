@@ -74,7 +74,7 @@ Recommended repository name: `portfolio`. Its expected Pages address is https://
 4. Under **Branch**, select **main** (or the branch containing your files).
 5. Select **/ (root)** as the folder and click **Save**.
 6. Open the repository's **Actions** tab and wait for the Pages build/deployment to finish successfully. Allow a few minutes; deployment is not instant.
-7. Return to **Settings → Pages** and use **Visit site** or the displayed website link. With repository `portfolio`, the expected URL is https://aryankahed.github.io/portfolio/.
+7. Return to **Settings → Pages** and use **Visit site** or the displayed website link. With repository `portfolio`, the expected URL is https://aryankahed.github.io/my-profile/.
 8. Open the site and check your name, college, email, GitHub and LinkedIn links, menu on mobile, theme toggle, and All/Web/Learning filters.
 9. If you see an old version, refresh with **Ctrl+F5** after deployment completes. For a 404, confirm the deployment succeeded and `index.html` is at the selected branch's root. Build failures are shown in **Actions**.
 10. Future updates use the same upload/replace process. Commits to the selected publishing branch trigger another deployment.
