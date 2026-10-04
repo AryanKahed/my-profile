@@ -43,7 +43,7 @@ The original HTML was personalized and the original CSS and `.gitignore` were co
 
 ## Upload or replace files on GitHub
 
-Recommended repository name: `portfolio`. Its expected Pages address is https://aryankahed.github.io/portfolio/ after successful deployment.
+Recommended repository name: `portfolio`. Its expected Pages address is https://aryankahed.github.io/my-profile/ after successful deployment.
 
 ### Create a repository if you do not already have one
 
